@@ -1,0 +1,84 @@
+
+.mainHolder {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../img/p2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding:0;
+    margin: 0;
+}
+
+.todoHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.item1 {
+    margin-bottom: 20px;
+    margin: auto 20px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.item3 {
+    width: 100%;
+    border-radius: 20px !important;
+    background: rgba(123, 117, 117, 0.4);
+    padding: 15px 15px;
+    justify-content: start;
+    align-items: center;
+    display: none;
+    max-height: 200px;
+    display: none;
+    overflow: auto;
+}
+
+.workinput {
+    margin-right: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(46, 54, 57);
+    border-radius: 10px;
+    font-size: large;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+}
+
+.btmSub {
+    background-color: rgb(111, 125, 132);
+    border: 2px solid rgb(46, 54, 57);
+    color: #fff;
+    padding: 4px 15px 5px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 10px;
+}
+
+.result-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
